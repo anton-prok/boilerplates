@@ -1,4 +1,4 @@
-#GULP
+# GULP
 
 Simple boilerplate for markup based on Gulp
 
@@ -15,7 +15,7 @@ Do make buid, run:
 $ gulp build
 ```
 
-#WEBPACK
+# WEBPACK
 
 Frontend boilerplate, based on Webpack, incuding React, Typescript & latest ES features
 
