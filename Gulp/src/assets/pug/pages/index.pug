@@ -1,0 +1,79 @@
+include ../blocks/head.pug
+
+body
+    .wrap
+        .container
+            .header
+                button.header__humberger-btn
+                .header__sidedrawer
+                    a(href="")
+                    a(href="")
+                    a(href="")
+                h1.header__logo
+                    |   Buzzguide.in
+
+            .promo
+                .promo__pic
+                    img(src="assets/img/promo.png", alt="")
+                .promo__main-text
+                    .promo__header
+                        |   The "Overall Best Value For Money"
+                        |   Weighing Machines On Amazon
+                        |   Rankings ( Along with deals & price history)
+
+                    ul.promo__list
+                        li.promo__item
+                            | - Powered by our Intelligent Algorithm
+                        li.promo__item
+                            | - Updated on 20th May, 2018
+                p.promo__text
+                    |   Also see - Current deals on weighing machines, Highest selling
+                    |   weighing machines, Highest rated weighing machines, Costliest weighing machines,
+                    |   Cheapest weighing machines
+
+            .card
+                h4.card__header
+                    |   #1 Overall Best Runk in Weighing Mchines
+
+
+                .card__main-dis
+                    .card__pic 
+                        img(src="https://images-eu.ssl-images-amazon.com/images/I/41PznnOSXYL._AC_US160_.jpg", alt="")
+
+                    .card__dis
+                        |   Hoffen Digital Electronic LCD
+                        |   Personal Body Fitness
+                        |   Weight Scale - Hight
+                        |   Precision strain gauge sensor
+                        |   system very strong bearing
+                        |   tempered glass. And comes
+                        |   with overload indication and
+                        |   auto shutdown features
+
+                        b
+                            |   4.5 Rating
+                        b
+                            |   From 5555 Amazon Reviews
+
+                    a(href="").card__link
+                        |   See it on Amazon
+                .card__prices
+                    h6.card__prices-today
+                        |   Rs 999 Today
+
+                    span.card__prices-thirty-days
+                        |   Lowest price in 30 days: Rs.1699
+                    span.card__prices-thirty-days
+                        |   Highest price in 30 days: Rs.999
+
+                    b.card__prices-history
+                        |   Price History
+                    ul.card__prices-list
+                    - for (var i = 0; i < 20; i++) {
+                        li.card__price-item
+                            span.card__prices-date
+                                |   01-May:
+                            span.card__prices-day-price
+                                |   Rs 1399
+                    -   }
+                        

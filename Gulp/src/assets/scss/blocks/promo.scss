@@ -1,0 +1,39 @@
+.promo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.promo__pic {
+  flex-shrink: 0;
+  width: 272px;
+  height: 291px;
+  margin-right: 40px;
+  
+  img {
+    width: 100%;
+  }
+}
+.promo__main-text {
+  width: 700px;
+}
+.promo__header {
+  flex-grow: 1;
+  flex-shrink: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.promo__text {
+  width: 100%;
+}
+.promo__item {
+  color: #ff0033;
+  font-size: 31px;
+  font-weight: 700;
+}
+.promo__text {
+  width: 800px;
+  margin: 20px auto 40px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}

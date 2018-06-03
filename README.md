@@ -1,10 +1,29 @@
-# devbp_2
-gulp boilerplate for markup &amp; some js
+#GULP
 
+Simple boilerplate for markup based on Gulp
 
-1. npm i
-2. gulp
-3. ... 
-4. profit!
+Do it in terminal:
+```
+$ npm i
+$ gulp
+$ ... 
+$ profit!
+```
 
-5. gulp build
+Do make buid, run:
+```
+$ gulp build
+```
+
+#WEBPACK
+
+Frontend boilerplate, based on Webpack, incuding React, Typescript & latest ES features
+
+```
+$ npm i
+$ npm run dev 
+
+Do make buid, run:
+```
+$ npm run build
+```

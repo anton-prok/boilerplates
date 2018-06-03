@@ -1,0 +1,32 @@
+@import "../../assets/style/main.scss";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body, html, input, button {
+	font-family: 'Roboto', sans-serif;
+}
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;        
+    background-color: rgba(239, 239, 245, 0.1);    
+}
+.app__harold {
+    width: 500px;
+    height: 400px;
+    background: url('../../assets/img/1.jpg') center top no-repeat;
+    background-size: 100% auto;
+}
