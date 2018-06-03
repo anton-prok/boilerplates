@@ -10,7 +10,7 @@ $ ...
 $ profit!
 ```
 
-Do make buid, run:
+To make buid, run:
 ```
 $ gulp build
 ```
@@ -22,8 +22,8 @@ Frontend boilerplate, based on Webpack, incuding React, Typescript & latest ES f
 ```
 $ npm i
 $ npm run dev 
-
-Do make buid, run:
+```
+To make buid, run:
 ```
 $ npm run build
 ```
