@@ -13,7 +13,7 @@ export default class App extends React.Component<any> {
         return (
             <div className="app" onClick={onHandleClick}>
                 <Hello compiler="TS" framework="React"/>           
-                <img src={require('../../assets/img/2.png')} alt=""/>     
+                <img src={require('../../assets/img/1.jpg')} alt=""/>     
                 <div className="app__harold"></div>
             </div>
         );
