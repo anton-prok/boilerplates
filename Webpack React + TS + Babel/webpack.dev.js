@@ -27,7 +27,8 @@ module.exports = {
     },
     devServer: {
         contentBase: path.resolve(__dirname, './build'),
-        quiet: true
+        quiet: true,
+        historyApiFallback: true
     },
     output: {
         filename: 'bundle.js',
@@ -45,7 +46,7 @@ module.exports = {
             },
             {   test: /\.js$/, enforce: "pre", loader: "source-map-loader" },
             {
-                test: /\.scss$/,
+                test: /\.(scss|css)?$/,
                 use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader", "sass-loader"]
             },
             {
@@ -73,6 +74,17 @@ module.exports = {
                                 speed: 4
                             }
                         }
+                    }
+                ]
+            },
+            {
+                test: /\.(eot|ttf|woff|woff2)$/i,
+                use: [
+                    {
+                        loader: "file-loader",
+                        options: {
+                            name: 'assets/fonts/[name].[ext]'
+                        } 
                     }
                 ]
             }
