@@ -1,1 +1,10 @@
-.header__humberger-btn,.header__sidedrawer{display:none}.header__logo{margin-bottom:45px;margin-top:15px;color:#f03;font-size:31px;font-weight:700}
+.header__humberger-btn,
+.header__sidedrawer {
+  display: none; }
+
+.header__logo {
+  margin-bottom: 45px;
+  margin-top: 15px;
+  color: #ff0033;
+  font-size: 31px;
+  font-weight: 700; }

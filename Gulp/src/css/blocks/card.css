@@ -1,1 +1,11 @@
-.card{width:1060px;margin:0 auto;padding:30px 50px 20px 40px;border:20px solid #000}.card__header{margin-bottom:40px;font-size:28px;font-weight:700;color:#f03}
+.card {
+  width: 1060px;
+  margin: 0 auto;
+  padding: 30px 50px 20px 40px;
+  border: 20px solid black; }
+
+.card__header {
+  margin-bottom: 40px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ff0033; }

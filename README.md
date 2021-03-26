@@ -1,5 +1,7 @@
 # GULP
 
+WARNING: you need at least 14 version of node.
+
 Simple boilerplate for markup based on Gulp
 
 Do it in terminal:
