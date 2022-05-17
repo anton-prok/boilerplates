@@ -1,6 +1,6 @@
 How to start:
 
-1. ```npm install``` or ```yarn install```
-2. npm start or yarn start
+1. Install all dependencies by running ```npm install``` or ```yarn install```
+2. Srart development by ```npm start``` or ```yarn start```
 
-to build run ```npm run build``` or ```yarn build```
+to make a build run ```npm run build``` or ```yarn build```
