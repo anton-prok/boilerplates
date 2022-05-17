@@ -1,0 +1,102 @@
+@import '~fonts/NeueHaasUnicaW1G.css';
+@import '~styles/variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: NeueHaasUnicaW1G;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 16px;
+    min-height: 100vh;
+    background-color: #d3e7eb;
+    background-image: url(~img/circle.svg);
+    background-size: 20px;
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+a,
+button,
+label,
+[role='button'] {
+    // outline: none;
+    outline-color: blue;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #909090;
+}
+input:focus::placeholder,
+textarea:focus::placeholder {
+    color: transparent;
+}
+
+
+.app {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    &__button {
+        width: 205px;
+        margin-bottom: 16px;
+        background-color: rgb(255, 0, 242);
+        padding: 12px 24px;
+        border: 2px solid coral;
+        border: 2px solid blue;
+        border-radius: 4px;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        height: calc(100vh - 140px);
+    }
+    &__text {
+        width: 300px;
+        margin-bottom: 100px;
+        text-align: center;
+        background-color: #fff;
+        color: $color;
+    }
+    &__wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    &__img {
+        display: block;
+        // width: 300px;
+        height: 600px;
+    }
+    &__bg {
+        width: 300px;
+        height: 400px;
+        background-size: cover;
+    }
+    
+}
